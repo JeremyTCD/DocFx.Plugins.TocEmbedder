@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net462</TargetFramework>
+        <AssemblyName>JeremyTCD.DocFx.Plugins.TocEmbedder</AssemblyName>
+        <PackageId>JeremyTCD.DocFx.Plugins.TocEmbedder</PackageId>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+        <Authors>JeremyTCD</Authors>
+        <Copyright>Copyright © JeremyTCD 2017</Copyright>
+        <Description>A DocFx post-processor for outline generation.</Description>
+        <PackageLicenseUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder/blob/master/License.txt</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <NeutralLanguage>English</NeutralLanguage>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <OutputPath>C:\Projects\JeremyTCD.DocFx.Themes.Mimo\examples\blog\bin\theme\plugins</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JeremyTCD.DocFx.Plugins.Utils" Version="0.5.0" />
+        <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+        <PackageReference Include="Microsoft.DocAsCode.Common" Version="2.39.3" />
+        <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />
+    </ItemGroup>
+
+</Project>
