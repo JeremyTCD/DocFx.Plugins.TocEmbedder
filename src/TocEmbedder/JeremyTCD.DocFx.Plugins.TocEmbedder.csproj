@@ -9,7 +9,7 @@
         <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
         <Authors>JeremyTCD</Authors>
         <Copyright>Copyright © JeremyTCD 2017</Copyright>
-        <Description>A DocFx post-processor for outline generation.</Description>
+        <Description>A DocFx post-processor for embedding TOCs.</Description>
         <PackageLicenseUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder/blob/master/License.txt</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder</PackageProjectUrl>
         <RepositoryUrl>https://github.com/JeremyTCD/DocFx.Plugins.TocEmbedder</RepositoryUrl>

@@ -5,7 +5,7 @@ build_script:
 - ps: |
     dotnet pack -c Release /p:version=$env:APPVEYOR_REPO_TAG_NAME
 artifacts:
-  - path: '.\src\OutlineGenerator\bin\Release\*.nupkg'
+  - path: '.\src\TocEmbedder\bin\Release\*.nupkg'
 deploy:
   provider: NuGet
   api_key:
